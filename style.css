@@ -17,11 +17,9 @@ body{
     position: fixed;
     top: 0;
     left: -250px;
-    transition: 0.5s;
+    transition: 0.8s;
 }
-.header{
-    background: #333a;
-}
+.header{background: #333a}
 .header img{
     width: 100px;
     margin: 15px;
@@ -29,9 +27,7 @@ body{
     border-radius: 50%;
     border: 3px solid grey;
 }
-.header img:hover{
-    border: 3px solid white;
-}
+.header img:hover{border: 4px solid white}
 .close-btn{
     position: absolute;
     color: #ccc;
@@ -66,9 +62,7 @@ body{
     color: #444;
     font-size: 1.1em;
 }
-.item i{
-    margin-right: 15px;
-}
+.item i{margin-right: 15px}
 .dropdown{
     position: absolute;
     right: 0;
@@ -85,12 +79,8 @@ body{
     opacity: 1;
     background: #333;
 }
-.item:hover .sub-item  {
-  color: white;
-}
-.item:hover .dropdown {
-    transform: rotate(90deg);
-}
+.item:hover .sub-item{color: white}
+.item:hover .dropdown {transform: rotate(90deg)}
 .menu-btn {
     position: absolute;
     color: #000;
@@ -103,12 +93,8 @@ body{
     display: none;
     cursor: pointer;
 }
-#checkbox-bar:checked~.slide-bar {
-    left: 0;
-}
-#checkbox-bar:checked~.menu-btn {
-    display: none;
-}
+#checkbox-bar:checked~.slide-bar {left: 0}
+#checkbox-bar:checked~.menu-btn {display: none}
 /* .close-btn {
     display: none;
 } */
@@ -124,13 +110,11 @@ body{
     .header{display: flex;}
     .header h1 {
         font-size: 0.4em;
-        letter-spacing: 0.9;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
     }
-
     .item a {
         font-size: 0.9em;
         padding: 5px 20px;
@@ -139,7 +123,6 @@ body{
     .close-btn{
         font-size: 15px;
         margin: 3px 10px ;
-     
     }
 }
 
