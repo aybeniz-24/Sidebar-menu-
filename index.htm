@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slidebar Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <input type="checkbox" id="checkbox-bar" />
+    <label for="checkbox-bar" class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <div class="slide-bar">
+        <div class="header">
+            <label for="checkbox-bar" class="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <img src="/img/logo.png" alt="logo" />
+            <h1>Aybeniz Elesgerova</h1>
+        </div>
+
+        <div class="menu">
+            <div class="item"><a href="#"><i class="fa-regular fa-user"></i>Profil</a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-address-book"></i>Contacts
+            
+                <i class="fa-solid fa-caret-down dropdown"></i>
+                </a>
+                <div class="sub-menu">
+                    <a href="#" class="sub-item"> <i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+                    <a href="#" class="sub-item"> <i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="#" class="sub-item"> <i class="fa-brands fa-linkedin-in"></i> Linkedin</a>
+                </div>
+            </div>
+            <div class="item"><a href="#"><i class="fa-regular fa-heart"></i>Favorites</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-gear"></i>Settings</a> </div>
+            <div class="item"><a href="#"><i class="fa-solid fa-circle-info"></i>About</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
